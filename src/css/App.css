@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+.App-nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.App-nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 17px 16px;
+  text-decoration: none;
+}
+
+.App-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  background: radial-gradient(circle at center top, #ffd700 0%, #ffd700 10%, transparent 25%, black 60%, black 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: #ffd700;
+  border-radius: 50%;
+}
+
+.Photo {
+  width: 400px;
+  height: auto; 
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+
+.buttons button {
+  background-color: rgba(255, 215, 0, 0.3);
+  color: black;
+  border: none;
+  padding: 15px 30px;
+  margin: 5px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; 
+  font-size: 18px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+.buttons button:hover {
+  background-color: rgba(255, 215, 0, 0.7);
+}
+
+.intro {
+  font-size: medium;
+  width: 60%;
+}
+
+.expriencedWithImages {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  height: 80px;
+  pointer-events: none;
+}
+
+.workExpContainer{
+  border: 1px solid #ffd700;
+  height: 350px;
+  border-radius: 20px;
+  width: 650px;
+}
+
+.experienceTitle {
+  background-color: rgba(255, 215, 0, 0.3);
+  padding: 8px; 
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  margin-right: 470px;
+  font-size: large;
+  max-width: 150px;
+}
+
+.experienceDate {
+  background-color: rgba(255, 215, 0, 0.3);
+  padding: 8px; 
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-left: 450px;
+  margin-top: -60px;
+  font-size: large;
+}
+
+.location {
+  font-size: small;
+}
+.miniContainer {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 300px;
+  border-radius: 20px;
+}
