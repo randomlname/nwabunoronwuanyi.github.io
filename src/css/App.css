@@ -24,7 +24,6 @@
 }
 
 .App-header {
-  /* background-color: #282c34; */
   background: radial-gradient(circle at center top, #ffd700 0%, #ffd700 10%, transparent 25%, black 60%, black 100%);
   min-height: 100vh;
   display: flex;
@@ -41,6 +40,13 @@
   height: 2px;
   background: #ffd700;
   border-radius: 50%;
+}
+
+.helloAnimationContainer {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-right: 235px;
 }
 
 .Photo {
@@ -73,6 +79,7 @@
 .intro {
   font-size: medium;
   width: 60%;
+  text-align: center;
 }
 
 .expriencedWithImages {
@@ -85,39 +92,111 @@
   pointer-events: none;
 }
 
-.workExpContainer{
-  border: 1px solid #ffd700;
-  height: 350px;
-  border-radius: 20px;
-  width: 650px;
+.experience {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  background-color: rgba(255, 215, 0, 0.3);
 }
 
-.experienceTitle {
-  background-color: rgba(255, 215, 0, 0.3);
-  padding: 8px; 
-  border-radius: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  margin-top: 20px;
-  margin-right: 470px;
-  font-size: large;
-  max-width: 150px;
+.expTitle {
+  font-weight: bold;
+}
+.expRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.experienceDate {
-  background-color: rgba(255, 215, 0, 0.3);
-  padding: 8px; 
-  border-radius: 20px;
+.expName, .expDate {
+  background-color: black;
+  border-radius: 60px;
+  padding: 10px 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  margin-left: 450px;
-  margin-top: -60px;
-  font-size: large;
+}
+
+.expName {
+  margin-right: auto;
+}
+
+.expDate {
+  margin-left: auto;
+}
+
+.expRight {
+  color: white;
+  position: relative;
+}
+
+.expLeft, .jobTitle {
+  display: block;
+  color: white;
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .location {
-  font-size: small;
+  position: relative;
+  padding-left: 15px;
+  font-size: 15px;
 }
-.miniContainer {
-  background-color: rgba(255, 255, 255, 0.5);
-  height: 300px;
-  border-radius: 20px;
+
+.location::before {
+  content: '\f3c5';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px; 
+  color: #ff0000;
+}
+
+.expHeader {
+  font-size: calc(2px + 2vmin);
+}
+
+.expPoint {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  position: relative; 
+  padding-left: 20px;
+  text-align: left;
+}
+
+.expPoint::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #ffd700;
+}
+
+@media (max-width: 1000px) {
+  .experience {
+    max-width: 85%;
+    padding: 20px; 
+  }
+
+  .App-header {
+    background: radial-gradient(circle at center top, #ffd700 0%, #ffd700 10%, transparent 15%, black 60%, black 100%);
+  }
+
+  .expHeader {
+    font-size: calc(5px + 2vmin);
+  }
+
+  .expLeft, .expRight {
+    font-size: 11px;
+    font-weight: bold;
+  }
+
 }
