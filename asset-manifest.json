@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nwabunoronwuanyi.github.io/static/css/main.cb25aba5.css",
-    "main.js": "/nwabunoronwuanyi.github.io/static/js/main.3caf14fa.js",
+    "main.js": "/nwabunoronwuanyi.github.io/static/js/main.2cabb616.js",
     "static/js/787.19e5c7be.chunk.js": "/nwabunoronwuanyi.github.io/static/js/787.19e5c7be.chunk.js",
     "static/media/HTML5.png": "/nwabunoronwuanyi.github.io/static/media/HTML5.841182757b23eda46f23.png",
     "static/media/PHP.png": "/nwabunoronwuanyi.github.io/static/media/PHP.cc41b4016adfb3060f0e.png",
@@ -11,11 +11,11 @@
     "static/media/PorfolioPhoto.jpeg": "/nwabunoronwuanyi.github.io/static/media/PorfolioPhoto.5d4b916d2c896051be43.jpeg",
     "index.html": "/nwabunoronwuanyi.github.io/index.html",
     "main.cb25aba5.css.map": "/nwabunoronwuanyi.github.io/static/css/main.cb25aba5.css.map",
-    "main.3caf14fa.js.map": "/nwabunoronwuanyi.github.io/static/js/main.3caf14fa.js.map",
+    "main.2cabb616.js.map": "/nwabunoronwuanyi.github.io/static/js/main.2cabb616.js.map",
     "787.19e5c7be.chunk.js.map": "/nwabunoronwuanyi.github.io/static/js/787.19e5c7be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb25aba5.css",
-    "static/js/main.3caf14fa.js"
+    "static/js/main.2cabb616.js"
   ]
 }
