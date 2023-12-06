@@ -26,7 +26,10 @@ function App() {
           <p>Full-Stack Developer | AWS Solutions Architect</p>
         </div>
         <div className="buttons">
-          <a href="/docs/NwabunorJeffOnwuanyi.pdf" download="NwabunorJeffOnwuanyi.pdf">
+          {/* <a href="/docs/NwabunorJeffOnwuanyi.pdf" download="NwabunorJeffOnwuanyi.pdf">
+            <button><i className="fa fa-download"></i> Resume</button>
+          </a> */}
+          <a href={`${process.env.PUBLIC_URL}/docs/NwabunorJeffOnwuanyi.pdf`} download="NwabunorJeffOnwuanyi.pdf">
             <button><i className="fa fa-download"></i> Resume</button>
           </a>
           <a href="https://github.com/randomlname" target="_blank" rel="noreferrer">
