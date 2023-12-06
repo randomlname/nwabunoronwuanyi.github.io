@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/nwabunoronwuanyi.github.io/static/css/main.cb25aba5.css",
+    "main.js": "/nwabunoronwuanyi.github.io/static/js/main.3caf14fa.js",
+    "static/js/787.19e5c7be.chunk.js": "/nwabunoronwuanyi.github.io/static/js/787.19e5c7be.chunk.js",
+    "static/media/HTML5.png": "/nwabunoronwuanyi.github.io/static/media/HTML5.841182757b23eda46f23.png",
+    "static/media/PHP.png": "/nwabunoronwuanyi.github.io/static/media/PHP.cc41b4016adfb3060f0e.png",
+    "static/media/react.png": "/nwabunoronwuanyi.github.io/static/media/react.451d732e9853b84e4fbe.png",
+    "static/media/CSS.png": "/nwabunoronwuanyi.github.io/static/media/CSS.3c9701ff7b4ff12d4936.png",
+    "static/media/JS.png": "/nwabunoronwuanyi.github.io/static/media/JS.d19bed4aa54f5f6a9468.png",
+    "static/media/PorfolioPhoto.jpeg": "/nwabunoronwuanyi.github.io/static/media/PorfolioPhoto.5d4b916d2c896051be43.jpeg",
+    "index.html": "/nwabunoronwuanyi.github.io/index.html",
+    "main.cb25aba5.css.map": "/nwabunoronwuanyi.github.io/static/css/main.cb25aba5.css.map",
+    "main.3caf14fa.js.map": "/nwabunoronwuanyi.github.io/static/js/main.3caf14fa.js.map",
+    "787.19e5c7be.chunk.js.map": "/nwabunoronwuanyi.github.io/static/js/787.19e5c7be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb25aba5.css",
+    "static/js/main.3caf14fa.js"
+  ]
+}
