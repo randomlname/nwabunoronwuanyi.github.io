@@ -6,9 +6,6 @@ import Video from './js/video'
 import './css/App.css';
 
 function App() {
-  const homeRef = useRef(null);
-  const EducationRef = useRef(null);
-  const ExperienceRef = useRef(null);
 
   return (
     <div className="app-container">
