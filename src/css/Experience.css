@@ -1,0 +1,118 @@
+.exp-container {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    background-color:rgba(58, 159, 197, 0.3)
+}
+  
+.expTitle {
+    font-weight: bold;
+}
+
+.expRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.expName, .expDate {
+    background-color: black;
+    border-radius: 60px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+  
+.expName {
+    margin-right: auto;
+}
+  
+.expDate {
+    margin-left: auto;
+}
+  
+.expRight {
+    color: #61B2D1;
+    position: relative;
+    font-size: 15px;
+}
+
+.expLeft, .jobTitle {
+    display: block;
+    color: #61B2D1;
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.jobTitle {
+    color: black;
+}
+.location {
+    position: relative;
+    padding-left: 15px;
+    font-size: 15px;
+}
+  
+.location::before {
+    content: '\f3c5';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 45%;
+    transform: translateY(-50%);
+    font-size: 15px; 
+    color: white;
+}
+  
+.descriptionArrow::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: black;
+}
+  
+.shortIntro {
+    font-size: 20px;
+    color: black;
+}
+  
+.scrollButton {
+    cursor: pointer;
+    border: 3px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+    padding: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    outline: none;
+    text-align: center;
+    line-height: 1;
+    font-size: 20px;
+    color: white; 
+}
+  
+.scrollButton:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 1200px) {
+    .shortIntro {
+        font-size: 11px;
+    }
+
+    .expName, .expDate {
+        background-color: black;
+        padding: 5px 10px;
+    }
+
+    .scrollButton {
+        font-size: 10px;
+        padding: 10px;
+    }
+}

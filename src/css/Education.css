@@ -1,0 +1,19 @@
+.edu-container {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    background-color: rgba(58, 159, 197, 0.3)
+}
+  
+.expTitle {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1200px) {
+    .containeredu {
+        margin-top: 450px;
+    }
+}
